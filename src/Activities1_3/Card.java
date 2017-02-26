@@ -1,7 +1,9 @@
+package Activities1_3;
+
 /**
- * Card.java
+ * Activities1_3.Card.java
  * <p>
- * <code>Card</code> represents a playing card.
+ * <code>Activities1_3.Card</code> represents a playing card.
  */
 public class Card {
     /**
@@ -20,7 +22,7 @@ public class Card {
     private int pointValue;
 
     /**
-     * Creates a new <code>Card</code> instance.
+     * Creates a new <code>Activities1_3.Card</code> instance.
      *
      * @param cardRank       a <code>String</code> value
      *                       containing the rank of the card
@@ -36,27 +38,27 @@ public class Card {
     }
 
     /**
-     * Accesses this <code>Card's</code> suit.
+     * Accesses this <code>Activities1_3.Card's</code> suit.
      *
-     * @return this <code>Card's</code> suit.
+     * @return this <code>Activities1_3.Card's</code> suit.
      */
     public String suit() {
         return suit;
     }
 
     /**
-     * Accesses this <code>Card's</code> rank.
+     * Accesses this <code>Activities1_3.Card's</code> rank.
      *
-     * @return this <code>Card's</code> rank.
+     * @return this <code>Activities1_3.Card's</code> rank.
      */
     public String rank() {
         return rank;
     }
 
     /**
-     * Accesses this <code>Card's</code> point value.
+     * Accesses this <code>Activities1_3.Card's</code> point value.
      *
-     * @return this <code>Card's</code> point value.
+     * @return this <code>Activities1_3.Card's</code> point value.
      */
     public int pointValue() {
         return pointValue;
@@ -81,7 +83,7 @@ public class Card {
      * Converts the rank, suit, and point value into a string in the format
      * "[Rank] of [Suit] (point value = [PointValue])".
      * This provides a useful way of printing the contents
-     * of a <code>Deck</code> in an easily readable format or performing
+     * of a <code>Activities1_3.Deck</code> in an easily readable format or performing
      * other similar functions.
      *
      * @return a <code>String</code> containing the rank, suit,

@@ -1,8 +1,10 @@
+package Activities1_3;
+
 import java.util.List;
 import java.util.ArrayList;
 
 /**
- * The Deck class represents a shuffled deck of cards.
+ * The Activities1_3.Deck class represents a shuffled deck of cards.
  * It provides several operations including
  *      initialize, shuffle, deal, and check if empty.
  */
@@ -22,7 +24,7 @@ public class Deck {
 
 
     /**
-     * Creates a new <code>Deck</code> instance.<BR>
+     * Creates a new <code>Activities1_3.Deck</code> instance.<BR>
      * It pairs each element of ranks with each element of suits,
      * and produces one of the corresponding card.
      * @param ranks is an array containing all of the card ranks.
