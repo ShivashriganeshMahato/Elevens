@@ -1,8 +1,4 @@
-package Activity11;
-
-import Activity10.Board;
-import Activity10.CardGameGUI;
-import Activity10.ElevensBoard;
+ 
 
 /**
  * This is a class that plays the GUI version of the Elevens game.

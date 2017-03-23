@@ -1,4 +1,4 @@
-package Activity11;
+ 
 
 /**
  * This is a class that plays noninteractive games of Elevens.
@@ -9,7 +9,7 @@ public class ElevensSimulation {
     /**
      * The number of games of Elevens to play.
      */
-    private static final int GAMES_TO_PLAY = 10;
+    private static final int GAMES_TO_PLAY = 1;
 
     /**
      * Flag used to control debugging print statements.
