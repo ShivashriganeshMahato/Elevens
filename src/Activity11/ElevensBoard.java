@@ -1,6 +1,7 @@
- 
+package Activity11;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -107,7 +108,7 @@ public class ElevensBoard extends Board {
      *         an empty list, if a JQK was not found.
      */
     private List<Integer> findJQK(List<Integer> selectedCards) {
-        List<Integer> indexesJQL = new ArrayList<>();
+        List<Integer> indexesJQL;
         int jInd = -1, qInd = -1, kInd = -1;
         
         for (Integer card : selectedCards) {
@@ -120,10 +121,12 @@ public class ElevensBoard extends Board {
                     break;
                 case "king":
                     kInd = card;
+                    break;
             }
         }
+        indexesJQL = Arrays.asList(jInd, qInd, kInd);
 
-        return indexesJQL.contains(-1) ? new List<Integer>() : indexesJQL;
+        return indexesJQL.contains(-1) ? new ArrayList<>() : indexesJQL;
     }
 
     /**
@@ -146,7 +149,7 @@ public class ElevensBoard extends Board {
         List<Integer> pairIndexes = findPairSum11(cardIndexes());
         replaceSelectedCards(pairIndexes);
         
-        return (isLegal(pairIndexes) && pairIndexes.size() == 2);
+        return pairIndexes.size() == 2;
     }
 
     /**
@@ -159,6 +162,6 @@ public class ElevensBoard extends Board {
         List<Integer> pairIndexes = findJQK(cardIndexes());
         replaceSelectedCards(pairIndexes);
         
-        return (isLegal(pairIndexes) && pairIndexes.size() == 3);
+        return pairIndexes.size() == 3;
     }
 }

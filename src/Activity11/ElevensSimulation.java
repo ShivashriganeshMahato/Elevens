@@ -1,4 +1,4 @@
- 
+package Activity11;
 
 /**
  * This is a class that plays noninteractive games of Elevens.

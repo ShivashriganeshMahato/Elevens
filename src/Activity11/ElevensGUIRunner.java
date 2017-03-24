@@ -1,4 +1,4 @@
- 
+package Activity11;
 
 /**
  * This is a class that plays the GUI version of the Elevens game.
