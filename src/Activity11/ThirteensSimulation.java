@@ -4,7 +4,7 @@ package Activity11;
  * This is a class that plays noninteractive games of Elevens.
  * See accompanying documents for a description of how Elevens is played.
  */
-public class ElevensSimulation {
+public class ThirteensSimulation {
 
     /**
      * The number of games of Elevens to play.
@@ -21,7 +21,7 @@ public class ElevensSimulation {
      * @param args is not used.
      */
     public static void main(String[] args) {
-        ElevensBoard board = new ElevensBoard();
+        ThirteensBoard board = new ThirteensBoard();
         int wins = 0;
 
         for (int k = 0; k < GAMES_TO_PLAY; k++) {

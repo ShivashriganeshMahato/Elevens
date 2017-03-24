@@ -131,7 +131,7 @@ public class ElevensBoard extends Board {
 
     /**
      * Looks for a legal play on the board.  If one is found, it plays it.
-     * @return true if a legal play was found (and made); false othewise.
+     * @return true if a legal play was found (and made); false otherwise.
      */
     public boolean playIfPossible() {
         if (anotherPlayIsPossible())
@@ -143,7 +143,7 @@ public class ElevensBoard extends Board {
      * Looks for a pair of non-face cards whose values sum to 11.
      * If found, replace them with the next two cards in the deck.
      * The simulation of this game uses this method.
-     * @return true if an 11-pair play was found (and made); false othewise.
+     * @return true if an 11-pair play was found (and made); false otherwise.
      */
     private boolean playPairSum11IfPossible() {
         List<Integer> pairIndexes = findPairSum11(cardIndexes());
@@ -156,7 +156,7 @@ public class ElevensBoard extends Board {
      * Looks for a group of three face cards JQK.
      * If found, replace them with the next three cards in the deck.
      * The simulation of this game uses this method.
-     * @return true if a JQK play was found (and made); false othewise.
+     * @return true if a JQK play was found (and made); false otherwise.
      */
     private boolean playJQKIfPossible() {
         List<Integer> pairIndexes = findJQK(cardIndexes());
