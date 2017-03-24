@@ -1,13 +1,13 @@
 package Activity11;
 
 /**
- * This is a class that plays noninteractive games of Elevens.
- * See accompanying documents for a description of how Elevens is played.
+ * This is a class that plays noninteractive games of Thirteens.
+ * See accompanying documents for a description of how Thirteens is played.
  */
 public class ThirteensSimulation {
 
     /**
-     * The number of games of Elevens to play.
+     * The number of games of Thirteens to play.
      */
     private static final int GAMES_TO_PLAY = 100;
 

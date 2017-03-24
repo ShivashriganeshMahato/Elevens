@@ -34,11 +34,6 @@ public class ThirteensBoard extends Board {
 	private static final int[] POINT_VALUES =
 		{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 0};
 
-	/**
-	 * Flag used to control debugging print statements.
-	 */
-	private static final boolean I_AM_DEBUGGING = false;
-
 
 	/**
 	 * Creates a new <code>ThirteenBoards</code> instance.
